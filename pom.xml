@@ -38,6 +38,7 @@ along with semanticcms-autogit-all.  If not, see <http://www.gnu.org/licenses />
 	<name>SemanticCMS AutoGit All</name>
 	<url>https://semanticcms.com/autogit/all/</url>
 	<description>Convenience POM to include most SemanticCMS automatic Git features, not including documentation or examples.</description>
+	<inceptionYear>2016</inceptionYear>
 
 	<scm>
 		<connection>scm:git:git://github.com/aoindustries/semanticcms-autogit-all.git</connection>
