@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://aoindustries.com/) [SemanticCMS](https://semanticcms.com/) / [AutoGit](https://semanticcms.com/autogit/) / [All](https://semanticcms.com/autogit/all/)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [SemanticCMS](https://github.com/aoindustries/semanticcms) / [AutoGit](https://github.com/aoindustries/semanticcms-autogit) / [All](https://github.com/aoindustries/semanticcms-autogit-all)
 <p>
 	<a href="https://aoindustries.com/life-cycle#project-current-stable">
 		<img src="https://semanticcms.com/ao-badges/project-current-stable.svg" alt="project: current stable" />
@@ -24,7 +24,7 @@
 	</a>
 </p>
 
-Convenience POM to include most [SemanticCMS AutoGit](https://semanticcms.com/autogit/) features, not including documentation or examples.
+Convenience POM to include most [SemanticCMS AutoGit](https://github.com/aoindustries/semanticcms-autogit) features, not including documentation or examples.
 
 ## Project Links
 * [Project Home](https://semanticcms.com/autogit/all/)
@@ -33,11 +33,11 @@ Convenience POM to include most [SemanticCMS AutoGit](https://semanticcms.com/au
 * [GitHub](https://github.com/aoindustries/semanticcms-autogit-all)
 
 ## Modules Included
-* [SemanticCMS AutoGit Model](https://semanticcms.com/autogit/model/)
-* [SemanticCMS AutoGit Servlet](https://semanticcms.com/autogit/servlet/)
-* [SemanticCMS AutoGit Style](https://semanticcms.com/autogit/style/)
-* [SemanticCMS AutoGit Taglib](https://semanticcms.com/autogit/taglib/)
-* [SemanticCMS AutoGit View](https://semanticcms.com/autogit/view/)
+* [SemanticCMS AutoGit Model](https://github.com/aoindustries/semanticcms-autogit-model)
+* [SemanticCMS AutoGit Servlet](https://github.com/aoindustries/semanticcms-autogit-servlet)
+* [SemanticCMS AutoGit Style](https://github.com/aoindustries/semanticcms-autogit-style)
+* [SemanticCMS AutoGit Taglib](https://github.com/aoindustries/semanticcms-autogit-taglib)
+* [SemanticCMS AutoGit View](https://github.com/aoindustries/semanticcms-autogit-view)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):
