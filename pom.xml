@@ -47,7 +47,6 @@ along with semanticcms-autogit-all.  If not, see <http://www.gnu.org/licenses />
 
 	<dependencyManagement>
 		<dependencies>
-			<!-- TODO: semanticcms-autogit-bom -->
 			<dependency>
 				<groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-model</artifactId><version>1.4.4-SNAPSHOT</version>
 			</dependency>
