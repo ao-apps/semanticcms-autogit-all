@@ -29,7 +29,7 @@ Convenience POM to include most [SemanticCMS AutoGit](https://github.com/aoindus
 ## Project Links
 * [Project Home](https://semanticcms.com/autogit/all/)
 * [Changelog](https://semanticcms.com/autogit/all/changelog)
-* [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.semanticcms%22%20AND%20a:%22semanticcms-autogit-all%22)
+* [Maven Central Repository](https://search.maven.org/artifact/com.semanticcms/semanticcms-autogit-all)
 * [GitHub](https://github.com/aoindustries/semanticcms-autogit-all)
 
 ## Modules Included
