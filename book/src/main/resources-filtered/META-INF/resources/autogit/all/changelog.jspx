@@ -37,7 +37,7 @@ along with semanticcms-autogit-all.  If not, see <http://www.gnu.org/licenses />
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2016-10-30T13:26:19-0500"
-		dateModified="2019-11-02T16:41:06-0500"
+		dateModified="2020-03-29T06:50:34-05:00"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-autogit-all:pom.version}" />
@@ -52,12 +52,30 @@ along with semanticcms-autogit-all.  If not, see <http://www.gnu.org/licenses />
 				groupId="@{project.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{project.scm.url}"
-			>
-				<ul>
-					<li>Minimum Java version changed from 1.7 to 1.8.</li>
-				</ul>
-			</changelog:release>
+			/>
 		</c:if>
+
+		<changelog:release
+			projectName="@{documented.name}"
+			version="1.4.0"
+			datePublished="2020-03-29T06:50:34-05:00"
+			groupId="@{project.groupId}"
+			artifactId="@{documented.artifactId}"
+			scmUrl="@{project.scm.url}"
+		>
+			<ul>
+				<li>Minimum Java version changed from 1.7 to 1.8.</li>
+				<li>
+					Reduced use of property substitutions in <code>pom.xml</code>.
+					This is to help 3rd-party parsers that fail to perform full Maven-compatible substitutions.
+				</li>
+				<li>Updated version of <core:link book="/autogit/model" page="/" />.</li>
+				<li>Updated version of <core:link book="/autogit/servlet" page="/" />.</li>
+				<li>Updated version of <core:link book="/autogit/style" page="/" />.</li>
+				<li>Updated version of <core:link book="/autogit/taglib" page="/" />.</li>
+				<li>Updated version of <core:link book="/autogit/view" page="/" />.</li>
+			</ul>
+		</changelog:release>
 
 		<changelog:release
 			projectName="@{documented.name}"
@@ -68,8 +86,8 @@ along with semanticcms-autogit-all.  If not, see <http://www.gnu.org/licenses />
 			scmUrl="@{project.scm.url}"
 		>
 			<ul>
-				<li>Updated version of <core:link book="/autogit/servlet" page="/index.jspx" />.</li>
-				<li>Updated version of <core:link book="/autogit/view" page="/index.jspx" />.</li>
+				<li>Updated version of <core:link book="/autogit/servlet" page="/" />.</li>
+				<li>Updated version of <core:link book="/autogit/view" page="/" />.</li>
 			</ul>
 		</changelog:release>
 
