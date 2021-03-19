@@ -169,7 +169,7 @@ along with semanticcms-autogit-all.  If not, see <http://www.gnu.org/licenses />
 				<groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-style</artifactId><version>1.4.0${POST-SNAPSHOT}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-view</artifactId><version>1.6.2-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+				<groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-view</artifactId><version>1.6.2${POST-SNAPSHOT}</version>
 			</dependency>
 			<!-- Runtime Transitive -->
 			<dependency>
