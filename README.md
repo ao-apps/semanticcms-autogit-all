@@ -9,6 +9,7 @@
 [![license: LGPL v3](https://semanticcms.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
 [![Build](https://github.com/aoindustries/semanticcms-autogit-all/workflows/Build/badge.svg?branch=master)](https://github.com/aoindustries/semanticcms-autogit-all/actions?query=workflow%3ABuild)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.semanticcms/semanticcms-autogit-all/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.semanticcms/semanticcms-autogit-all)
 
 Convenience POM to include most [SemanticCMS AutoGit](https://github.com/aoindustries/semanticcms-autogit) features, not including documentation or examples.
 
