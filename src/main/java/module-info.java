@@ -1,6 +1,6 @@
 /*
  * semanticcms-autogit-all - Convenience POM to include most SemanticCMS AutoGit features, not including documentation or examples.
- * Copyright (C) 2021  AO Industries, Inc.
+ * Copyright (C) 2021, 2022  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -21,8 +21,8 @@
  * along with semanticcms-autogit-all.  If not, see <https://www.gnu.org/licenses/>.
  */
 module com.semanticcms.autogit.all {
-	// Direct
-	requires transitive com.semanticcms.autogit.model; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-model</artifactId>
-	requires transitive com.semanticcms.autogit.servlet; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-servlet</artifactId>
-	requires transitive com.semanticcms.autogit.taglib; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-taglib</artifactId>
+  // Direct
+  requires transitive com.semanticcms.autogit.model; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-model</artifactId>
+  requires transitive com.semanticcms.autogit.servlet; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-servlet</artifactId>
+  requires transitive com.semanticcms.autogit.taglib; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-taglib</artifactId>
 }
