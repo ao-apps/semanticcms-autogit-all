@@ -25,4 +25,4 @@ module com.semanticcms.autogit.all {
   requires transitive com.semanticcms.autogit.model; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-model</artifactId>
   requires transitive com.semanticcms.autogit.servlet; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-servlet</artifactId>
   requires transitive com.semanticcms.autogit.taglib; // <groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-taglib</artifactId>
-} // TODO: Avoiding rewrite-maven-plugin-4.22.2 truncation
+}
