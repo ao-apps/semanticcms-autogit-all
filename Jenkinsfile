@@ -29,7 +29,7 @@ def upstreamProjects = [
 
   // Direct
   'model', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-model</artifactId>
-  'servlet', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-server</artifactId>
+  'servlet', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-servlet</artifactId>
   'taglib', // <groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-taglib</artifactId>
 
   // Runtime Direct
