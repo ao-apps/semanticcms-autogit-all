@@ -36,15 +36,15 @@ along with semanticcms-autogit-all.  If not, see <https://www.gnu.org/licenses/>
     <module.name>com.semanticcms.autogit.all.book</module.name>
     <!-- These values are copied from the project being documented -->
     <documented.artifactId>semanticcms-autogit-all</documented.artifactId>
-    <documented.name>SemanticCMS AutoGit All²</documented.name>
+    <documented.name>SemanticCMS AutoGit All</documented.name>
     <documented.description>Convenience POM to include most SemanticCMS AutoGit features, not including documentation or examples.</documented.description>
 
     <description.html><![CDATA[Documentation for <a target="${javadoc.target}" href="${project.url}">${documented.name}</a> in <a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
   </properties>
 
-  <name>SemanticCMS AutoGit All² Book</name>
+  <name>SemanticCMS AutoGit All Book</name>
   <url>https://semanticcms.com/autogit/all/</url>
-  <description>Documentation for SemanticCMS AutoGit All² in SemanticCMS format.</description>
+  <description>Documentation for SemanticCMS AutoGit All in SemanticCMS format.</description>
   <inceptionYear>2016</inceptionYear>
 
   <licenses>
