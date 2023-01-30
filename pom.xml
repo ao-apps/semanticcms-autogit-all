@@ -112,9 +112,10 @@ along with semanticcms-autogit-all.  If not, see <https://www.gnu.org/licenses/>
         <groupId>org.apache.maven.plugins</groupId><artifactId>maven-dependency-plugin</artifactId>
         <configuration>
           <usedDependencies>
-            <!-- Direct -->
-            <dependency>com.semanticcms:semanticcms-autogit-servlet</dependency><!-- Required for module-info.java -->
-            <dependency>com.semanticcms:semanticcms-autogit-taglib</dependency><!-- Required for module-info.java -->
+            <!-- Required for module-info.java -->
+            <dependency>com.semanticcms:semanticcms-autogit-model</dependency>
+            <dependency>com.semanticcms:semanticcms-autogit-servlet</dependency>
+            <dependency>com.semanticcms:semanticcms-autogit-taglib</dependency>
             <!-- Runtime Direct -->
             <dependency>com.semanticcms:semanticcms-autogit-style</dependency>
             <dependency>com.semanticcms:semanticcms-autogit-view</dependency>
