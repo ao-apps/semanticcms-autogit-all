@@ -112,9 +112,6 @@ along with semanticcms-autogit-all.  If not, see <https://www.gnu.org/licenses/>
             <dependency>com.semanticcms:semanticcms-autogit-model</dependency>
             <dependency>com.semanticcms:semanticcms-autogit-servlet</dependency>
             <dependency>com.semanticcms:semanticcms-autogit-taglib</dependency>
-            <!-- Runtime Direct -->
-            <dependency>com.semanticcms:semanticcms-autogit-style</dependency>
-            <dependency>com.semanticcms:semanticcms-autogit-view</dependency>
           </usedDependencies>
         </configuration>
       </plugin>
@@ -267,9 +264,9 @@ along with semanticcms-autogit-all.  If not, see <https://www.gnu.org/licenses/>
         <groupId>org.webjars.npm</groupId><artifactId>jquery</artifactId><version>3.7.1</version>
       </dependency>
       <!-- javaee-web-api-bom: <groupId>org.apache.taglibs</groupId><artifactId>taglibs-standard-impl</artifactId> -->
-      <!-- BOM -->
+      <!-- Imports -->
       <dependency>
-        <groupId>com.aoapps</groupId><artifactId>javaee-web-api-bom</artifactId><version>7.0.1${POST-SNAPSHOT}</version>
+        <groupId>com.aoapps</groupId><artifactId>javaee-web-api-bom</artifactId><version>7.0.1-POST-SNAPSHOT</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -295,6 +292,12 @@ along with semanticcms-autogit-all.  If not, see <https://www.gnu.org/licenses/>
     <dependency>
       <groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-view</artifactId>
       <scope>runtime</scope>
+    </dependency>
+    <!-- Imports (Reactor build order only) -->
+    <dependency>
+      <groupId>com.aoapps</groupId><artifactId>javaee-web-api-bom</artifactId><version>7.0.1-POST-SNAPSHOT</version>
+      <type>pom</type>
+      <exclusions><exclusion><artifactId>*</artifactId><groupId>*</groupId></exclusion></exclusions>
     </dependency>
   </dependencies>
 </project>
