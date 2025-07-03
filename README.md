@@ -21,7 +21,7 @@ Convenience POM to include most [SemanticCMS AutoGit](https://github.com/ao-apps
 ## Project Links
 * [Project Home](https://semanticcms.com/autogit/all/)
 * [Changelog](https://semanticcms.com/autogit/all/changelog)
-* [Maven Central Repository](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-autogit-all)
+* [Central Repository](https://central.sonatype.com/artifact/com.semanticcms/semanticcms-autogit-all)
 * [GitHub](https://github.com/ao-apps/semanticcms-autogit-all)
 
 ## Modules Included
